@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		EAFC4C602CC57DEE00102D75 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = EAFC4C5F2CC57DEE00102D75 /* README.md */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		EAFC4C432CC566D200102D75 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,6 +31,7 @@
 		EAFC4C322CC566D100102D75 /* OpenSourceHealth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpenSourceHealth.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EAFC4C422CC566D200102D75 /* OpenSourceHealthTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OpenSourceHealthTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EAFC4C4C2CC566D200102D75 /* OpenSourceHealthUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OpenSourceHealthUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAFC4C5F2CC57DEE00102D75 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -75,10 +80,11 @@
 		EAFC4C292CC566D100102D75 = {
 			isa = PBXGroup;
 			children = (
+				EAFC4C332CC566D100102D75 /* Products */,
 				EAFC4C342CC566D100102D75 /* OpenSourceHealth */,
 				EAFC4C452CC566D200102D75 /* OpenSourceHealthTests */,
 				EAFC4C4F2CC566D200102D75 /* OpenSourceHealthUITests */,
-				EAFC4C332CC566D100102D75 /* Products */,
+				EAFC4C5F2CC57DEE00102D75 /* README.md */,
 			);
 			sourceTree = "<group>";
 		};
@@ -212,6 +218,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EAFC4C602CC57DEE00102D75 /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
